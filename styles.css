@@ -1,12 +1,11 @@
 body{
     max-height: 100%;
-    max-width: 100%;
+    max-width: 100%; 
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-
 header{
     background-color: #1f2937;
     padding: 0 0 20px 0;
@@ -45,6 +44,10 @@ img{
 .links, .secondary{
     font-size: 18px;
     color: #e5e7eb;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .primary{
     font-size: 48px;
