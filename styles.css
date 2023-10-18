@@ -1,0 +1,162 @@
+body{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #1f2937;
+    padding: 0 0 20px 0;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+.flex{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}  
+
+img{
+    height: 200px;
+    width: auto;
+}
+.card .imageframe img{
+    max-width: 200px;
+}
+#main{
+    width: 600px;
+}
+.mainimage{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    object-fit:  cover;    
+}
+.links, .secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.primary{
+    font-size: 48px;
+    color: #f9faf8;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center; 
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0 100px;
+    align-items: center;    
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infolist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:80px;
+}
+.infotitle{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.imageframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px; 
+    border:solid blue;
+    padding: 0;
+    box-sizing:content-box;
+}
+.card{
+    border-color: #3882f6;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.quote{
+    max-width: 700px;
+
+}
+.signing{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+.quotecontainer{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font: light italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.callcall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.callcontainer{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 200px;
+    gap: 100px;
+    flex-shrink: 0;
+}
+
+.action{
+    font-size: 24px;
+    font-weight: bold;
+}
+ footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px;
+
+ }
+
